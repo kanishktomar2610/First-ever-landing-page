@@ -1,0 +1,138 @@
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+/* this makes the div cover entire width of the page */
+
+
+.HeaderLogo {
+    display: inline-block;
+    color: rgb(253, 253, 253);
+    font-size: 24px;
+    font-weight: bolder;
+    width: 50%;
+
+}
+.Header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+
+}
+.BiggerPara {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-top: 40px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.links {
+    display: flex;
+    background-color: #1f2937;
+    flex-grow: 1;
+    justify-content: end;
+    margin-right: 80px;
+}
+.LogoDiv {
+    display: flex;
+    width: 40%;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.ImageContainer{
+    display: flex;
+    width: 350px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.fill{
+    max-width:100% ;
+    height: 350px;
+  
+}
+.cardImage{
+    display: flex;
+    width: 150px;
+    
+    justify-content: center;
+}
+.fillcard{
+    max-width: 100%;
+    height: 150px;
+}
+.cardContainer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardContainer .card1{
+    border: solid 6px #1f2937;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.quoteContainer{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    font-weight: bold;
+    height: 150px;
+    background-image: linear-gradient(to right, skyblue, white);
+}
+.LastContainer{
+    padding: 2rem;
+    margin-top: 0px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.InnerContainer{
+    width: 65%;
+    background-color: #1f2937;
+    border: solid 0px #1f2937;
+    border-radius: 15px;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: row;
+
+}
+.lefttext{
+    display: flex;
+    width: 70%;
+   flex-direction: row;
+}
+.rightbutton{
+    display: flex;
+    flex-grow: 1;
+    width: 30%;
+    align-items: center;
+   
+}
+.lefttext{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 3rem;
+    flex-direction: column;
+}
